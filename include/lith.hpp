@@ -12,6 +12,7 @@ enum class LithTokens: uint8_t{
         bit128,
         bit256,
         nothing,
+        identifier,
 
         //modules
         bring,
@@ -79,7 +80,7 @@ enum class LithTokens: uint8_t{
 
         //meta-programmation
         macro,
-        
+
 
 
 
