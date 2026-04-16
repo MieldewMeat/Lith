@@ -58,7 +58,28 @@ enum class LithTokens: uint8_t{
 
         // incrementor / decrementor
         incrementor,
-        decrementor
+        decrementor,
+
+        //thread
+        fork,
+        merge,
+
+        //control flow
+        repeat,
+        stop,
+        Conditional, //if
+        Excpetion,
+        togo, //goto
+
+        //structural types
+        structure,
+        unions,
+        enumaration,
+        classy,
+
+        //meta-programmation
+        macro,
+        
 
 
 
